@@ -38,3 +38,13 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+.container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container img{
+  width:60%;
+  height:auto;/* 縦横比の維持 */
+}

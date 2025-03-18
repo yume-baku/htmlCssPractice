@@ -38,3 +38,38 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-left:20%
+}
+
+.container {
+  width: 50%;
+  aspect-ratio: 1; /* 縦横比 1:1 */
+  border:solid;
+  border-width: thin;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  ". . . r r ."
+  ". . . . . ."
+  "b b . . . ."
+  ". . . . . ."
+  ". . . . . ."
+  ". . . . . ."
+  ;
+}
+
+.red-part{
+  background-color: red;
+  grid-area: r;
+}
+
+.blue-part{
+  background-color: blue;
+  grid-area: b;
+}

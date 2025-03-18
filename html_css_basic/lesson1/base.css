@@ -38,3 +38,31 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+
+.container{
+  height: 98vh;
+  width: 40vw;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.black-part {
+  font-size: 24px;
+  height: 50%;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding-top: 1em; /* 1行分 */
+}
+
+
+.white-part {
+  font-size: 24px;
+  height: 50%;
+  width: 100%;
+  color: black;
+  background-color: white;
+  padding-top: 1em; /* 1行分 */
+  border: solid; /* 白部分は枠が必要 */
+  border-width: thin;
+}
